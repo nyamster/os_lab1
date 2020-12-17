@@ -208,7 +208,6 @@ int main(void){
 	printf("After filling");
 	getchar();
 
-	//munmap(address, A * 1024 * 1024);
 	free(address);
 
 	printf("After deallocation");
